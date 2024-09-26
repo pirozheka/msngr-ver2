@@ -24,7 +24,9 @@ docker run --rm -p 6379:6379 redis:7
 
 ## Открыть папку и применить миграции БД
 cd messenger
+
 python manage.py makemigrations
+
 python manage.py migrate
 
 ## Запустить сервер
